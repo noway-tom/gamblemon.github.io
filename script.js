@@ -53,7 +53,7 @@ function spinwheel() {
     requestAnimationFrame(animate);
 }
 
-function showwwResult() {
+function showResult() {
     let arc = (2*Math.PI)/ segments.length;
     let index = Math.floor((segments.length -(angle % (2 * Math.PI))/ arc)) % segments.length;
     result.textcontent = "Ergebnis: " + segments[index];
