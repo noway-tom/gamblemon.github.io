@@ -20,12 +20,10 @@ canvas{
     position: absolute;
     top:80%;
     left:50%;
-    transform: translate(-50%, -50%);
 
-    padding: 15px 25px;
     border: none;
     border-radius: 50%;
-    background: white;
+    background: grey;
     font-weight: bold;
     cursor: pointer;
 }
