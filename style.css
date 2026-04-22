@@ -19,8 +19,7 @@ canvas{
 
 #spinbutton {
     position: absolute;
-    top:80%;
-    left:50%;
+    margin-top: -50px;
 
     border: none;
     border-radius: 50%;
